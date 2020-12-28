@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(43, 39, 39);
+}
+
+.slide-section {
+  background-image: url("../img/boat.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 2s;
+  color: antiquewhite;
+  transition-timing-function: ease-in-out;
+  opacity: 0.7;
+}
+
+.col-md-4 img{
+  width: 100%;
+}
+
+.jumbotron{
+  margin: 5% 0;
+  color: antiquewhite;
+}
+
+.slide-text-div {
+  text-align: center;
+  padding: 10% 25%;
+}
+
+.slide-title {
+  font-size: 3rem;
+}
+
+.slide-subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.card{
+  margin: 5% 0;
+}
+
+
+.footer {
+  height: 120px;
+  background-color: rgb(43, 43, 43);
+  text-align: center;
+  color: antiquewhite;
+}
+
+.footer a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 10px;
+}

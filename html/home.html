@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+    integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <title>Trawell | Home </title>
+</head>
+
+<body>
+
+  <nav id="stickyNav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./home.html">Trawell <i class="fas fa-plane-departure"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Where to go?
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./history.html">History</a></li>
+              <li><a class="dropdown-item" href="./daylife.html">Day Life</a></li>
+              <li>
+                <a class="dropdown-item" href="./nightlife.html">Night Life</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./tours.html">Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/about.html">About</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slider goes here -->
+  <section class="slide-section" id="slideshow">
+    <div class="slide-text-div">
+      <h1 class="slide-title">Istanbul</h1>
+      <p class="slide-subtitle">Explore Istanbul Today</p>
+    </div>
+  </section>
+
+
+  <div id="main" class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Check out some of the amazing places in Istanbul</h1>
+        <p class="lead">Best places for any Travelers.</p>
+      </div>
+    </div>
+
+    <div class="carusel-container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1597680486382-b2e11be7c406?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGlzdGFuYnVsJTIwY2l0eXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="architecture">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1531168301421-0f2e507f2d2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fGlzdGFuYnVsJTIwY2l0eXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="Bird">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGlzdGFuYnVsJTIwY2l0eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="galata">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>If the earth were a single state, Istanbul would be its capital.</p>
+          <footer class="blockquote-footer">NAPOLEON BONAPARTE</footer>
+        </blockquote>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <div id="content-container">
+
+        <div class="card-group">
+          <div class="card">
+            <img src="../img/WhatsApp Image 2020-12-19 at 16.15.56.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="./daylife.html">Daylife</a></h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore placeat neque ab
+                minima eum illum rerum beatae amet iure consequuntur!.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/WhatsApp Image 2020-12-19 at 16.15.57 (1).jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="./history.html">History</a></h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque illo ab architecto
+                numquam sit alias natus consectetur reiciendis delectus voluptates!</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/WhatsApp Image 2020-12-19 at 16.15.57.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="./nightlife.html">Nightlife</a></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos qui dolorem error
+                placeat ipsa et nisi officiis dolorum vitae recusandae.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="MapOfIstanbul">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192428.02253733602!2d28.91192196167072!3d41.097666353100365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1608377110463!5m2!1str!2str"
+        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="footer">
+    <a href="#"><i class="fab fa-instagram-square"></i></a>
+    <a href="#"><i class="fab fa-facebook-square"></i></i></a>
+    <a href="#"><i class="fab fa-pinterest-square"></i></i></a>
+    <p>Copyright © 2020 Trawell </p>
+    <p>All Rights Reserved</p>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="../js/Slider.js"></script>
+</body>
+
+</html>

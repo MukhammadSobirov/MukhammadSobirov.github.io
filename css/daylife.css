@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.slide-section {
+  background-image: url("../img/boat.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 2s;
+  color: rgb(250, 234, 214);
+  transition-timing-function: ease-in-out;
+  opacity: 0.4;
+}
+
+.slide-text-div {
+  text-align: center;
+  padding: 10% 25%;
+}
+
+.slide-title {
+  font-size: 3rem;
+}
+
+.slide-subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+iframe {
+  margin-left: 140px;
+  border-top: #c00 1px solid;
+  border-right: #c00 1px solid;
+  border-left: #c00 1px solid;
+  border-bottom: #c00 1px solid;
+}
+
+.footer {
+  height: 120px;
+  background-color: rgb(43, 43, 43);
+  text-align: center;
+  color: antiquewhite;
+}
+
+.footer a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 10px;
+}
