@@ -15,10 +15,9 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  transition-duration: 2s;
   color: rgb(250, 234, 214);
-  transition-timing-function: ease-in-out;
-  opacity: 0.4;
+  transition: 2s ease;
+  background: "rgba(0, 0, 0, 0.2)",
 }
 
 .slide-text-div {
